@@ -55,10 +55,10 @@ public class BoardController {
 //insert SQL문 실행
     
     rttr.addFlashAttribute("msg", "success");
-   return "redirect:/board/listAll";
+   //return "redirect:/board/listAll";
     //listAll.jsp는 board 안에
     
-   // return "/board/success";
+    return "/board/success";
     
     //success.jsp 가 불러져 나온다.
     
